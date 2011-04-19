@@ -25,6 +25,11 @@ TDD with Jasmine and Introduction to the DOM
 * Test framework for JavaScript with syntax similar to rspec for Ruby
 * Written by (and used by) the good folks at Pivotal
 
+!SLIDE bullets
+# Adventure Time! #
+
+* Test out MagicalItem class
+
 !SLIDE bullets incremental
 # Scope #
 
