@@ -23,8 +23,31 @@ TDD with Jasmine and Introduction to the DOM
 # Jasmine #
 
 * Test framework for JavaScript with syntax similar to rspec for Ruby
+* Jasmine can be run anywhere you can execute JavaScript
 * Written by (and used by) the good folks at Pivotal
+* http://pivotal.github.com/jasmine/wiki
 
+!SLIDE bullets incremental
+# Jasmine Specs #
+
+* Each spec is a JavaScript function
+* You tell Jasmine about a spec with a call to <code>it()</code> with a description string and the function
+* The string is a description of a behavior that you want your production code to exhibit
+
+!SLIDE small
+# Sample Spec #
+
+    @@@ javaScript
+    it('should increment a variable', function () {
+      var foo = 0;
+      foo++;
+    });
+    
+!SLIDE bullets incremental
+# Expectations #
+
+* Within your spec you will express expectations about the behavior of your application code.
+* This is done using the <code>expect()</code> function and any of various expectation matchers
 !SLIDE bullets
 # Adventure Time! #
 
