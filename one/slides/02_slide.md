@@ -1,5 +1,6 @@
-!SLIDE
+!SLIDE small
 # Number #
+<br><br><br><br>
 
     @@@ javaScript
     var myNumber1 = 1;
@@ -8,8 +9,9 @@
     console.log('mySum: ', mySum);
     
 
-!SLIDE
+!SLIDE small
 # String #
+<br><br><br><br>
 
     @@@ javaScript
     var myString1 = "string 1"; 
@@ -26,12 +28,11 @@
 !SLIDE incremental
 # Object #
 
-Object == Hash == Associative Array
----------------------
+## Object == Hash == Associative Array ##
 
-Object is the superclass of all other objects
----------------------
 
+## Object is the superclass of all other objects ##
+<br><br><br><br>
 
     @@@ javaScript
     var myObject = new Object();
@@ -40,6 +41,7 @@ Object is the superclass of all other objects
     
 !SLIDE small
 # Null #
+<br><br><br><br>
 
     @@@ javaScript
     var nullVar = null; 
@@ -50,6 +52,7 @@ Object is the superclass of all other objects
 
 !SLIDE small
 # Undefined #
+<br><br><br><br>
 
     @@@ javaScript
     var myObj = new Object(); 
@@ -61,9 +64,9 @@ Object is the superclass of all other objects
       
 !SLIDE
 # What is false? #
-
-False, 0, undefined, null
----------------------
+<br><br>
+## False, 0, undefined, null ##
+<br><br>
 
     @@@ javaScript
     if (myObj['undefinedVar']) {
@@ -75,6 +78,7 @@ False, 0, undefined, null
 
 !SLIDE
 # Arrays #
+<br><br><br><br>
 
     @@@ javaScript
     var myArray = [1,2]; 
@@ -88,6 +92,7 @@ False, 0, undefined, null
 !SLIDE 
 
 # toString() #
+<br><br><br><br>
 
     @@@ javaScript
     console.log('myArray2 toString: ', 
@@ -103,9 +108,9 @@ False, 0, undefined, null
 !SLIDE 
 
 # Functions #
-
-Either global or a member of an objects
----------------------
+<br><br>
+## Either global or a member of an objects ##
+<br><br>
 
     @@@ javaScript
     function sayHello(name) {

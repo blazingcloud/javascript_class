@@ -48,7 +48,7 @@ Shopping Cart
       }
     }
     
-!SLIDE bullets small
+!SLIDE bullets smaller
 # Homework Time! #
 
 * Fill in implementation for empty methods in ShoppingCart class

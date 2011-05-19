@@ -1,8 +1,9 @@
 !SLIDE
 # Iterating #
 
-!SLIDE 
-# Iterate over an array using an index #
+!SLIDE small
+## Iterate over an array using an index ##
+<br><br><br><br>
 
     @@@ javaScript
     var myArray = ['a', 'b', 'c', 'd'];
@@ -12,7 +13,8 @@
     }
 
 !SLIDE small
-# Iterate over a hash using for in #
+## Iterate over a hash using <code>for in</code> ##
+<br><br><br><br>
 
     @@@ javaScript
     var myHash = new Object(); 
@@ -26,7 +28,8 @@
     }
     
 !SLIDE small
-# Don't iterate over an array as you would a hash #
+## Don't iterate over an array as you would a hash ##
+<br><br><br><br>
 
     @@@ javaScript
     var myArray = ['a', 'b', 'c', 'd']; 
@@ -36,7 +39,9 @@
     }
     
 !SLIDE
-# Iterate using index so you don't get extra properties #
+## Iterate using <code>index</code> so you don't get extra properties ##
+<br><br><br><br>
+
     @@@ javaScript
     for (var i=0; i<myArray.length; i++) {
       console.log(myArray[i]);

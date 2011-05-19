@@ -1,14 +1,15 @@
 !SLIDE 
 # JavaScript - Week 1 #
 
-!SLIDE bullets incremental
+!SLIDE bullets incremental smaller
 # Class Overview #
 
 * Language Basics
 * TDD with Jasmine
 * Browser DOM, CSS
-* Asynchronous requests (AJAX)
-* jQuery overview
+* Functions
+* Object-orientation
+* Asynchronous requests (AJAX) & jQuery
 
 !SLIDE bullets incremental small
 # History of JavaScript #
@@ -35,6 +36,6 @@
 
 * Syntax similar to Java
 * Loose typing
-* Variables declared with a generic "var" (not string, int, float, etc.)
+* Variables declared with a generic <code>var</code> (not <code>string, int, float</code>, etc.)
 * Basic data types: undefined, null, boolean, string, number, object
 

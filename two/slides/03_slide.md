@@ -1,4 +1,4 @@
-!SLIDE bullets incremental
+!SLIDE bullets incremental small
 
 # Adventure Time! #
 
@@ -6,7 +6,7 @@
 * Hard code a list of MagicalItem objects
 * Iterate over the list and create DOM nodes for each item (remember onload!)
 
-!SLIDE bullets incremental
+!SLIDE bullets incremental small
 # Homework Time! #
 
 * Write Jasmine tests for the ShoppingCart class

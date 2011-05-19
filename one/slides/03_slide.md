@@ -1,11 +1,12 @@
-!SLIDE bullets incremental
+!SLIDE bullets incremental small
 # Objects #
 
 * Object is the superclass of all other objects 
 * Object == Hash == Associative Array 
 
 !SLIDE 
-# Creating an object #
+## Creating an object ##
+<br><br><br><br>
 
     @@@ javaScript
     var myObject = new Object();
@@ -13,7 +14,8 @@
     var myObject = {};
 
 !SLIDE 
-# Setting properties on an object #
+## Setting properties on an object ##
+<br><br><br><br>
 
     @@@ javaScript
     myObject.a == "a";
@@ -21,14 +23,17 @@
     myObject['a'] = "a";
 
 !SLIDE
-# Accessing an object's properties #
+## Accessing an object's properties ##
+<br><br><br><br>
+
     @@@ javaScript
     myObject.a;
     
     myObject['a'];
     
 !SLIDE small
-# Setting functions on objects #
+## Setting functions on objects ##
+<br><br><br><br>
 
     @@@ javaScript
     myObject.myFunction = function() {
@@ -37,13 +42,15 @@
     };
 
 !SLIDE
-# Calling the function #
+## Calling the function ##
+<br><br><br><br>
 
     @@@ javaScript
       myObject.myFunction();
       
 !SLIDE
-# Displaying all of the attributes and functions on objects #
+## Displaying all of the attributes and functions on objects ##
+<br><br><br><br>
 
     @@@ javaScript
       for (var prop in myObject) {

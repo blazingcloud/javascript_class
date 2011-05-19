@@ -1,8 +1,9 @@
 !SLIDE
 # Classes #
 
-!SLIDE
-# A class describes the attributes and behaviors of a type of object #
+!SLIDE small
+## A class describes the attributes and behaviors of a type of object ##
+<br><br><br><br>
 
     @@@ javaScript
     function Car() {
@@ -20,20 +21,24 @@
     }
 
 !SLIDE
-# Creating a new instance of the Car class #
+## Creating a new instance of the Car class ##
+<br><br><br><br>
 
     @@@ javaScript
     var camero = new Car(); 
     camero.color = “Electric Blue”;
     
 !SLIDE
-# What is the value of isDriving before we call this method? After? #
+## What is the value of <code>isDriving</code> before we call this method? After? ##
+<br><br><br><br>
   
     @@@ javaScript
     camero.drive();
     
-!SLIDE
-# We can modify a class's prototype to define its properties #
+!SLIDE smaller
+## We can modify a class's prototype ##
+## to define its properties ##
+<br><br><br><br>
 
     @@@ javaScript
     function Car3() {};
@@ -49,8 +54,10 @@
       this.isDriving = false;
     };
     
-!SLIDE
-# We can also augment a class by modifying its prototype #
+!SLIDE small
+## We can also augment a class ##
+## by modifying its prototype ##
+<br><br><br><br>
 
     @@@javaScript
     Array.prototype.contains = function(item) { 
@@ -61,13 +68,17 @@
 # Determining type #
 
 !SLIDE
-# Determining type with "instance of" #
+## Determining type with <code>instance of</code> ##
+<br><br><br><br>
+
     @@@javaScript
     console.log('camero instance of Car? ', 
       camero instanceof Car);
     
 !SLIDE
-# Determining type with "typeof" #
+## Determining type with <code>typeof</code> ##
+<br><br><br><br>
+
     @@@ javaScript
     console.log('typeof myCar: ', typeof myCar);
     console.log('typeof myCar.drive: ', 
