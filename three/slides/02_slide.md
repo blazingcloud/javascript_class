@@ -30,3 +30,5 @@
     bob.fullName = alice.fullName;  // Whoa, trippy!
     alice.fullName(); //=> "Alice Liddell"
     bob.fullName(); //=> "Bob Jones"
+    
+!SLIDE
