@@ -102,14 +102,15 @@
 
 # Quotation #
 
-* Can use either ‘’ or “”
-* ‘’ is most common
+* Can use either single or double quotes
+* 'something' or "something"
+* single quotes are most common
 
 !SLIDE 
 
 # Functions #
 <br><br>
-## Either global or a member of an objects ##
+## Either global or a member of an object ##
 <br><br>
 
     @@@ javaScript
