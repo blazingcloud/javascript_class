@@ -1,6 +1,3 @@
-!SLIDE bullets
-# Test First Learning with Jasmine #
-    
 !SLIDE bullets smaller
 # Homework! #
 
