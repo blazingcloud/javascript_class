@@ -65,7 +65,7 @@
 !SLIDE
 # What is false? #
 <br><br>
-## False, 0, undefined, null ##
+## false, 0, undefined, null ##
 <br><br>
 
     @@@ javaScript

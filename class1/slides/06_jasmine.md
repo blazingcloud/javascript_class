@@ -1,4 +1,4 @@
-!SLIDE 
+!SLIDE bullets 
 # Test First Learning with Jasmine #
 
 !SLIDE bullets incremental small
@@ -54,7 +54,7 @@
     it('should increment a variable', function () {
       var result;
       result = hello()
-	  	expect(result).toEqual("Hello!");
+      expect(result).toEqual("Hello!");
     });
     
 !SLIDE bullets incremental small
@@ -147,7 +147,8 @@
 !SLIDE bullets incremental small
 # More about Suites #
 
-* Specs may be disabled by calling <code>xit()</code> instead of <code>it()</code>. Suites may be disabled by calling <code>xdescribe()</code> instead of <code>describe()</code>
-* There's a lot more to this. You can read more about it here:
+* Specs may be disabled by calling <code>xit()</code> instead of <code>it()</code>. 
+* Suites may be disabled by calling <code>xdescribe()</code> instead of <code>describe()</code>
+* You can read more about it at 
 * http://pivotal.github.com/jasmine/wiki
     

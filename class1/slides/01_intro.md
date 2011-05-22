@@ -5,11 +5,10 @@
 # Class Overview #
 
 * Language Basics
-* TDD with Jasmine
+* Test First Learning with Jasmine
+* Object-Oriented JavaScript
 * Browser DOM, CSS
-* Functions
-* Object-orientation
-* Asynchronous requests (AJAX) & jQuery
+* Asynchronous Requests (AJAX) & jQuery
 
 !SLIDE bullets incremental small
 # History of JavaScript #
@@ -22,11 +21,11 @@
 
 
 !SLIDE bullets incremental
+# For this class you will need: #
 
-* Firefox
-* Firebug
-* Web server (Apache)
-* Aptana
+* Chrome or Firefox / Firebug
+* Aptana or other good editor
+* Jasmine (installed via Ruby / RubyGems)
 
 !SLIDE
 
@@ -36,6 +35,7 @@
 
 * Syntax similar to Java
 * Loose typing
-* Variables declared with a generic <code>var</code> (not <code>string, int, float</code>, etc.)
+* Variables declared with a generic <code>var</code> 
+* (not <code>string, int, float</code>, etc.)
 * Basic data types: undefined, null, boolean, string, number, object
 
