@@ -1,20 +1,22 @@
-!SLIDE 
-# Javascript - Week 2 #
-
-## TDD with Jasmine and Introduction to the DOM ##
-
-
-!SLIDE bullets incremental
-# From Last Week #
-
-* Go over homework (shopping cart class)
+!SLIDE bullets 
+# Test First Learning with Jasmine #
 
 !SLIDE bullets incremental small
 # Test-Driven Development (TDD) #
 
-* What is TDD?
+* What is TDD? (also called Test First Development)
 * Write tests first to specify the behavior of the code
 * Code until your tests pass
+* Then make your code good
+* RED-GREEN-REFACTOR
+
+!SLIDE bullets incremental small
+# Test First Teaching (TFT) #
+
+* Like TDD, but with a different purpose
+* Teacher writes the test
+* Student implements the code
+
 
 !SLIDE bullets incremental small
 # Jasmine #
@@ -36,8 +38,8 @@
 
     @@@ javaScript
     it('should increment a variable', function () {
-      var foo = 0;
-      foo++;
+      var result;
+      result = hello()
     });
     
 !SLIDE bullets incremental small
@@ -50,11 +52,16 @@
 
     @@@ javaScript
     it('should increment a variable', function () {
-      var foo = 0;            // set up the world
-      foo++;                  // call your application code
-      expect(foo).toEqual(1); // passes because foo == 1
+      var result;
+      result = hello()
+      expect(result).toEqual("Hello!");
     });
     
+!SLIDE bullets incremental small
+# Let's Try it! #
+
+* http://github.com/blazingcloud/javascript_lessons
+
 !SLIDE bullets incremental small
 # Suites #
 
@@ -140,11 +147,8 @@
 !SLIDE bullets incremental small
 # More about Suites #
 
-* Specs may be disabled by calling <code>xit()</code> instead of <code>it()</code>. Suites may be disabled by calling <code>xdescribe()</code> instead of <code>describe()</code>
-* There's a lot more to this. You should check out the documentation:
+* Specs may be disabled by calling <code>xit()</code> instead of <code>it()</code>. 
+* Suites may be disabled by calling <code>xdescribe()</code> instead of <code>describe()</code>
+* You can read more about it at 
 * http://pivotal.github.com/jasmine/wiki
     
-!SLIDE bullets
-# Adventure Time! #
-
-* Write some tests for the MagicalItem class
