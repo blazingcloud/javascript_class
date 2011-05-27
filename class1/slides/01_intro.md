@@ -9,6 +9,8 @@
 * Object-Oriented JavaScript
 * Browser DOM, CSS
 * Asynchronous Requests (AJAX) & jQuery
+* Manipulating forms
+* Interacting with cookies (session-only vs. persistent)
 
 !SLIDE bullets incremental small
 # History of JavaScript #
