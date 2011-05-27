@@ -37,5 +37,5 @@
 * Loose typing
 * Variables declared with a generic <code>var</code> 
 * (not <code>string, int, float</code>, etc.)
-* Basic data types: undefined, null, boolean, string, number, object
+* undefined, null, boolean, string, number, object
 
