@@ -1,0 +1,33 @@
+.content::after {
+      position: absolute;
+      right: 120px;
+      bottom: 120px;
+      content: url(jay_small.png);
+}
+
+h3 {
+	font-family: "Trebuchet MS", sans-serif;
+	color: #000000;
+	font-size: 25px;
+	line-height: 34px;
+}
+
+
+h2 {
+	font-family: "Trebuchet MS", sans-serif;
+	color: #007766;
+	font-weight: bold;
+	font-size: 38px;
+}
+
+
+h1 {
+	font-family: "Trebuchet MS", sans-serif;
+	color: #007799;
+	font-weight: bold;
+	font-size: 60px;
+}
+
+ul {
+	text-align: left;
+}
